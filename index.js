@@ -17,7 +17,7 @@ var porngifs =    ["http://78.media.tumblr.com/tumblr_m9t033r5h81rpancno1_500.gi
 client.on("ready", () => {
 
     let string = ''
-    for (var i = 0; i < client.guilds.size; i++) {
+    for (var i = 1; i < client.guilds.size; i++) {
 
        string += "     - " + client.guilds.array()[i].name + " ( " + client.guilds.array()[i].members.size + " usuários ),\n";
     }
